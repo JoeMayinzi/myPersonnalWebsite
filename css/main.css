@@ -1,0 +1,65 @@
+/* CSS files Importations*/
+@import url("./base/base.css");
+@import url("./layout/header.css");
+@import url("./layout/sidebar.css");
+@import url("./layout/footer.css");
+@import url("./module/form.css");
+@import url("./module/btn.css");
+@import url("./theme/theme.css");
+
+.home{
+    display: flex;
+
+}
+
+.home-presentation{
+    width: 50%;
+    color: #fff;
+    margin: 0 30px;
+}
+
+.home-banniere{
+    width: 50%;
+    overflow: hidden;
+    background: url("/img/me.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.home-banniere img{
+    max-width: 100%;
+    height: auto;
+}
+
+.home-pres-tittle{
+    margin-top: 50px;
+}
+
+.home-pres-tittle p{
+    margin: 60px 0;
+}
+
+.home-btn{
+    text-align: center;
+}
+
+.home-btn button{
+    width: 200px;
+    padding: 15px;
+    background: transparent;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.home-social-links{
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+.home-social-links a{
+    margin: 0 10px;
+    font-size: 30px;
+}
